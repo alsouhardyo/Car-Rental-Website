@@ -1,10 +1,17 @@
 // Disabling the previous dates in the calendar:-
 
+const searchValue = document.querySelector("#location");
 const pickUpDate = document.querySelector("#pick-up-date");
 const today = new Date();
 pickUpDate.min = today.toISOString().split("T")[0];
 const returnDate = document.querySelector("#return-date");
 returnDate.min = today.toISOString().split("T")[0];
+const submitBTN = document.querySelector(".submit-btn");
+submitBTN.addEventListener("click", () => {
+    searchValue.value = "";
+    pickUpDate.value = "";
+    returnDate.value = "";
+});
 
 // Subscribe Functionality for the website:-
 
@@ -56,8 +63,8 @@ window.onscroll = () => {
     menuIcon.classList.add("fa-bars");
     menuIcon.classList.remove("fa-circle-xmark");
 };
-allLiElement.forEach( (li) => {
+allLiElement.forEach((li) => {
     li.onclick = () => {
         hamNavbar.classList.remove("active");
-    }
-})
+    };
+});
