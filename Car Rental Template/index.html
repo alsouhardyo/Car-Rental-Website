@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Car Rental Website</title>
+        <!-- Fav Icon -->
+        <link rel="shortcut icon" href="images/jeep.png" type="image/x-icon" />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- CSS Files -->
+        <link rel="stylesheet" href="CSS/footer.css" />
+        <link rel="stylesheet" href="CSS/subscribe.css" />
+        <link rel="stylesheet" href="CSS/review.css" />
+        <link rel="stylesheet" href="CSS/about-us.css" />
+        <link rel="stylesheet" href="CSS/service.css" />
+        <link rel="stylesheet" href="CSS/ride.css" />
+        <link rel="stylesheet" href="CSS/homepage.css" />
+        <link rel="stylesheet" href="CSS/homepage.css" />
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <!-- Home Page Starts From Here -->
+        <!-- Header Starts From Here -->
+        <header>
+            <a href="#" class="logo"
+                ><img
+                    src="images/jeep.png"
+                    alt="image of the header or logo"
+                    class="header-img"
+            /></a>
+            <div class="menubar" id="menu-icon">
+                <i class="fa-solid fa-bars" id="bar" style="font-size: 1.2rem;"></i>
+            </div>
+
+            <!-- Nav Bar Starts From Here -->
+
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#ride">Ride</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#about_us">About</a></li>
+                <li><a href="#review">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="log-in">
+                <button class="sign-up">Sign Up</button>
+                <button class="sign-in">Sign In</button>
+            </div>
+        </header>
+        <!-- Hero Area Starts From Here -->
+        <section class="home-page" id="home">
+            <ul class="ham-navbar">
+                <li class="all-li"><a href="#home">Home</a></li>
+                <li class="all-li"><a href="#ride">Ride</a></li>
+                <li class="all-li"><a href="#service">Services</a></li>
+                <li class="all-li"><a href="#about_us">About</a></li>
+                <li class="all-li"><a href="#review">Reviews</a></li>
+                <li class="all-li"><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hero-items">
+                <h1 class="hero-heading text">
+                    <span>Looking </span>
+                    to<br />
+                    rent a car
+                </h1>
+                <p class="hero-description text">
+                    Lorem ipsum dolor sit amet consectetur adi<br />
+                    elit. Eum laboriosam maiores saepe!
+                </p>
+                <div class="marketing-image">
+                    <div class="marketing-items">
+                        <img src="images/ios.png" alt="image of app store" />
+                    </div>
+                    <div class="marketing-items">
+                        <img src="images/512x512.png" alt="image of google play" />
+                    </div>
+                </div>
+            </div>
+            <div class="booking-container">
+                <div id="form">
+                    <div class="booking-items">
+                        <label for="location">Location</label>
+                        <input
+                            type="search"
+                            placeholder="Search Places"
+                            name="Location"
+                            id="location"
+                            spellcheck="false"
+                            required
+                        />
+                    </div>
+                    <div class="booking-items">
+                        <label for="pick-up-date">Pick-Up Date</label>
+                        <input
+                            type="date"
+                            name="Pick-up"
+                            id="pick-up-date"
+                            required
+                        />
+                    </div>
+                    <div class="booking-items">
+                        <label for="return-date">Return Date</label>
+                        <input
+                            type="date"
+                            name="Return"
+                            id="return-date"
+                            required
+                        />
+                    </div>
+                    <div class="booking-items">
+                        <input type="submit" class="submit-btn" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Ride Section Starts From Here -->
+        <section class="car-ride" id="ride">
+            <p class="ride-heading heading">HOW ITS WORK</p>
+            <h1 class="ride-sub-heading heading">Rent With 3 Easy Steps</h1>
+            <div class="ride-container">
+                <div class="rent-items box">
+                    <i class="fa-solid fa-location-dot map"></i>
+                    <p class="rent-title">Choose A Location</p>
+                    <p class="rent-description">
+                        Lorem ipsum dolor sit amet<br />
+                        consectetur adipisicing elit. Aut quae omnis possimus,
+                        nesciunt totam reiciendis?
+                    </p>
+                </div>
+                <div class="rent-items box">
+                    <i
+                        class="fa-solid fa-calendar-check"
+                        style="
+                            width: 50px;
+                            height: 50px;
+                            background-image: var(--gradient);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: #fff;
+                            font-size: 1.3rem;
+                            border-radius: 10px;
+                        "
+                    ></i>
+                    <p class="rent-title">Pick-Up-Date</p>
+                    <p class="rent-description">
+                        Lorem ipsum dolor sit amet<br />
+                        consectetur adipisicing elit. Aut quae omnis possimus,
+                        nesciunt totam reiciendis?
+                    </p>
+                </div>
+                <div class="rent-items box book-car">
+                    <i class="fa-regular fa-calendar calendar"></i>
+                    <p class="rent-title">Book A Car</p>
+                    <p class="rent-description">
+                        Lorem ipsum dolor sit amet<br />
+                        consectetur adipisicing elit. Aut quae omnis possimus,
+                        nesciunt totam reiciendis?
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Service Section Starts From Here -->
+        <section class="service-section" id="service">
+            <p class="service-title heading">BEST SERVICES</p>
+            <h1 class="service-heading heading">
+                Explore Out Top Deals <br />
+                From Top Rated Dealers
+            </h1>
+            <div class="service-item-container">
+                <div class="service-items box">
+                    <img
+                        src="images/car1.jpg"
+                        alt="image of cars"
+                        class="service-img"
+                    />
+                    <span class="service-model">2017</span>
+                    <p class="service-item-title">2018 Honda Civic</p>
+                    <p class="price"><span>$58500 | $358</span> /month</p>
+                    <button class="rent-btn">Rent Now</button>
+                </div>
+                <div class="service-items box">
+                    <img
+                        src="images/car2.jpg"
+                        alt="image of cars"
+                        class="service-img"
+                    />
+                    <span class="service-model">2017</span>
+                    <p class="service-item-title">2018 Honda Civic</p>
+                    <p class="price"><span>$58500 | $358 </span> /month</p>
+                    <button class="rent-btn">Rent Now</button>
+                </div>
+                <div class="service-items box">
+                    <img
+                        src="images/car3.jpg"
+                        alt="image of cars"
+                        class="service-img"
+                    />
+                    <span class="service-model">2017</span>
+                    <p class="service-item-title">2018 Honda Civic</p>
+                    <p class="price"><span>$58500 | $358</span> /month</p>
+                    <button class="rent-btn">Rent Now</button>
+                </div>
+                <div class="service-items box">
+                    <img
+                        src="images/car4.jpg"
+                        alt="image of cars"
+                        class="service-img"
+                    />
+                    <span class="service-model">2017</span>
+                    <p class="service-item-title">2018 Honda Civic</p>
+                    <p class="price"><span>$58500 | $358</span> /month</p>
+                    <button class="rent-btn">Rent Now</button>
+                </div>
+                <div class="service-items box">
+                    <img
+                        src="images/car5.jpg"
+                        alt="image of cars"
+                        class="service-img"
+                    />
+                    <span class="service-model">2017</span>
+                    <p class="service-item-title">2018 Honda Civic</p>
+                    <p class="price"><span>$58500 | $358</span> /month</p>
+                    <button class="rent-btn">Rent Now</button>
+                </div>
+                <div class="service-items box">
+                    <img
+                        src="images/car6.jpg"
+                        alt="image of cars"
+                        class="service-img"
+                    />
+                    <span class="service-model">2017</span>
+                    <p class="service-item-title">2018 Honda Civic</p>
+                    <p class="price"><span>$58500 | $358</span> /month</p>
+                    <button class="rent-btn">Rent Now</button>
+                </div>
+            </div>
+        </section>
+        <!-- About Us Starts From Here -->
+        <section class="about-us" id="about_us">
+            <p class="about-us-title heading">ABOUT US</p>
+            <h1 class="about-us-heading heading">Best Customer Experience</h1>
+            <div class="about-us-container">
+                <div class="about-us-items box">
+                    <img
+                        src="images/about.png"
+                        alt="image of the about section"
+                        class="about-img"
+                    />
+                </div>
+                <div class="about-us-items item2 box">
+                    <p class="about-item-title">ABOUT US</p>
+                    <p class="about-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Sint exercitationem quibusdam tempore magni. Ad
+                        optio vero nesciunt soluta voluptatem neque quo suscipit
+                        autem, quos mollitia. Culpa officia facilis harum
+                        dolorum?
+                    </p>
+                    <p class="other-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eaque odio aut est. Assumenda neque, blanditiis
+                        praesentium debitis fugiat possimus temporibus.
+                    </p>
+                    <button class="about-us-btn">Learn More</button>
+                </div>
+            </div>
+        </section>
+        <!-- Review Starts From Here -->
+        <section class="customer-review" id="review">
+            <p class="review-title heading">REVIEWS</p>
+            <h1 class="review-heading heading">What's Our Customer Say</h1>
+            <div class="review-container">
+                <div class="review-items box">
+                    <img
+                        src="images/rev1.jpg"
+                        alt="customer image"
+                        class="customer-img"
+                    />
+                    <p class="customer-name">Someone Name</p>
+                    <p class="starff">&starf;&starf;&starf;&starf;&starf;</p>
+                    <p class="review-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Ea libero expedita facere. Esse reiciendis, harum
+                        illo enim odit aut ipsam aliquid error delectus facere
+                        quibusdam?
+                    </p>
+                </div>
+                <div class="review-items box">
+                    <img
+                        src="images/rev2.jpg"
+                        alt="customer image"
+                        class="customer-img"
+                    />
+                    <p class="customer-name">Someone Name</p>
+                    <p class="starff">&starf;&starf;&starf;&starf;&starf;</p>
+                    <p class="review-description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Eaque, asperiores recusandae ipsam accusantium
+                        reprehenderit voluptatum a, excepturi esse quam est
+                        ducimus molestiae optio accusamus sit.
+                    </p>
+                </div>
+                <div class="review-items box">
+                    <img
+                        src="images/rev3.jpg"
+                        alt="customer image"
+                        class="customer-img"
+                    />
+                    <p class="customer-name">Someone Name</p>
+                    <p class="starff">&starf;&starf;&starf;&starf;&starf;</p>
+                    <p class="review-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Repudiandae sequi perspiciatis temporibus eos
+                        culpa recusandae, odio corporis vel eum illo velit
+                        veritatis, sapiente quos. Voluptate?
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Subscription Starts From Here -->
+        <section class="subscription">
+            <h1 class="subscribe-heading heading">Subscribe To Newsletter</h1>
+            <div class="input-container">
+                <input
+                    name="Email"
+                    type="email"
+                    id="email"
+                    placeholder="Enter Your Email...."
+                    required
+                    class="box"
+                />
+                <button class="subscribe box">Subscribe</button>
+            </div>
+        </section>
+        <!-- Footer Starts -->
+
+        <footer id="contact">
+            <div class="footer_container">
+                <div class="footer_items item1 box">
+                    <a href="#"
+                        ><img
+                            src="images/jeep.png"
+                            alt="image of logo"
+                            class="footer_img"
+                    /></a>
+                    <p class="footer_description">
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Molestiae deserunt
+                        facere maxime quaerat commodi illo vitae cum libero debitis.
+                        Fugiat ab qui eveniet nostrum quia!
+                    </p>
+                    <img
+                        src="images/facebook.png"
+                        alt="image of icons"
+                        class="footer_icon"
+                    />
+                    <img
+                        src="images/twitter.png"
+                        alt="image of icons"
+                        class="footer_icon"
+                    />
+                    <img
+                        src="images/youtube.png"
+                        alt="image of icons"
+                        class="footer_icon"
+                    />
+                    <img
+                        src="images/linkedin.png"
+                        alt="image of icons"
+                        class="footer_icon"
+                    />
+                </div>
+                <div class="footer_items box">
+                    <p class="footer_link_title">Quick Links</p>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#ride">Ride</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li>
+                            <a href="#about_us">About</a>
+                        </li>
+                        <li><a href="#review">Review</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer_items box">
+                    <p class="footer_link_title">Get in Touch</p>
+                    <div class="contact_container">
+                        <div class="contact_container_items">
+                            <i
+                                class="fa-solid fa-location-dot footer_touch_icon"
+                            ></i>
+                            <p class="footer_contact">
+                                 North Avenue, Micihigon
+                            </p>
+                        </div>
+                        <div class="contact_container_items">
+                            <i
+                                class="fa-solid fa-envelope footer_touch_icon"
+                            ></i>
+                            <p class="footer_contact">support@rental.com</p>
+                        </div>
+                        <div class="contact_container_items">
+                            <i class="fa-solid fa-phone footer_touch_icon"></i>
+                            <p class="footer_contact">823-4565-13456</p>
+                        </div>
+                        <div class="contact_container_items">
+                            <i class="fa-solid fa-mobile footer_touch_icon"></i>
+                            <p class="footer_contact">823-4565-13456</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="ending_line">
+                Copyright &copy; 2024 | Powered by Rental Service
+            </p>
+        </footer>
+
+        <!-- Footer Ends -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
