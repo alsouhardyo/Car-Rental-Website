@@ -32,7 +32,7 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(".text", { delay: 200, origin: "top" });
-sr.reveal(".booking-container form", { delay: 800, origin: "left" });
+sr.reveal(".booking-container .form", { delay: 800, origin: "left" });
 sr.reveal(".heading", { delay: 800, origin: "top" });
 sr.reveal(".ride-container .box", { delay: 600, origin: "top" });
 sr.reveal(".service-item-container .box", { delay: 600, origin: "top" });
