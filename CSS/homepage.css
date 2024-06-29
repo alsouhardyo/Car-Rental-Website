@@ -147,7 +147,7 @@ header .logo .header-img {
     width: 100px;
     height: auto;
 }
-.booking-container #form {
+.booking-container .form {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -211,7 +211,7 @@ header .logo .header-img {
         position: relative;
         bottom: 30px;
     }
-    .booking-container #form {
+    .booking-container .form {
         bottom: 1rem;
     }
     .booking-items .submit-btn {
@@ -247,7 +247,7 @@ header .logo .header-img {
     .hero-items{
         bottom: 30px;
     }
-     .booking-container #form {
+     .booking-container .form {
         bottom: 1rem;
         left: 40px;
     }
@@ -265,7 +265,7 @@ header .logo .header-img {
     .home-page {
         grid-template-columns: 1fr;
     }
-    .booking-container #form {
+    .booking-container .form {
         position: unset;
     }
     header .navbar {
@@ -274,7 +274,7 @@ header .logo .header-img {
     .hero-items{
         bottom: 0px;
     }
-     .booking-container #form {
+     .booking-container .form {
         bottom: 0.5rem;
         left: 50px;
     }
